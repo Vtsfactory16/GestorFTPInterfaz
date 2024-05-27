@@ -6,7 +6,7 @@ import java.util.Scanner;
 
 public class Driver {
     private static final String SERVER = "localhost";
-    private static final int PORT = 21;
+    private static final int PORT = 14147;
     private static final String USER = "Admin";
     private static final String PASSWORD = "Admin1.";
 

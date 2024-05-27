@@ -101,7 +101,7 @@ public class SincronizadorFTP {
             } else {
                 try {
                     if (!existsOnFtp(child)) {
-                        upload(child, "user", 0);  // Aquí se debe proporcionar el nombre del usuario y el tiempo de vida
+                        upload(child, "user", 0);
                     }
                 } catch (IOException e) {
                     Logger.logError("Unable to upload " + child + "(" + e.getMessage() + ")");

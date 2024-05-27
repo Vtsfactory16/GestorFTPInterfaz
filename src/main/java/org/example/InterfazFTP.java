@@ -30,7 +30,7 @@ public class InterfazFTP extends JFrame {
         setLayout(new GridLayout(12, 2));
 
         ftpServerField = new JTextField("localhost");
-        ftpPortField = new JTextField("21");
+        ftpPortField = new JTextField("14147");
         ftpUserField = new JTextField("Admin");
         ftpPasswordField = new JPasswordField("Admin1.");
         syncDirField = new JTextField(System.getProperty("user.dir"));
